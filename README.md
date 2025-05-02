@@ -1,14 +1,10 @@
-Here's a sample `README.md` for your **Intelligent Document Retrieval System** using **LangChain** and **Vector Databases**. It follows a clean and professional format typical for open-source or internal projects:
-
----
-
 # 🧠 Intelligent Document Retrieval System
 
 **Built with LangChain + Vector Databases**
 
 ## 🔍 Overview
 
-The Intelligent Document Retrieval System leverages **LangChain** and **Vector Databases** (e.g., FAISS, Pinecone, Chroma) to provide **semantic search** and **context-aware document querying**. This system transforms unstructured documents into embeddings, stores them efficiently, and enables natural language-based retrieval using a large language model (LLM).
+The Intelligent Document Retrieval System leverages **LangChain** and **Vector Databases** (FAISS) to provide **semantic search** and **context-aware document querying**. This system transforms unstructured documents into embeddings, stores them efficiently, and enables natural language-based retrieval using a large language model (LLM).
 
 ---
 
@@ -16,9 +12,9 @@ The Intelligent Document Retrieval System leverages **LangChain** and **Vector D
 
 * ✅ **Semantic Search** using vector similarity
 * ✅ **Document Chunking** with configurable chunk size and overlap
-* ✅ **Embeddings Generation** via OpenAI, HuggingFace, or other models
+* ✅ **Embeddings Generation** via OpenAI
 * ✅ **LangChain Integration** for seamless LLM orchestration
-* ✅ **Support for Multiple Vector Stores** (e.g., FAISS, Chroma, Pinecone)
+* ✅ **Support for Multiple Vector Stores** via FAISS
 * ✅ **Custom Prompt Templates** for better query interpretation
 * ✅ **Modular Design** for easy extensibility
 
@@ -27,10 +23,10 @@ The Intelligent Document Retrieval System leverages **LangChain** and **Vector D
 ## 🛠️ Tech Stack
 
 * [LangChain](https://www.langchain.com/)
-* Vector DB: [FAISS](https://github.com/facebookresearch/faiss) / [Chroma](https://www.trychroma.com/) / [Pinecone](https://www.pinecone.io/)
-* Embedding Models: OpenAI / HuggingFace Transformers
-* LLM: OpenAI GPT / Local LLMs
-* Optional: Streamlit for UI, FastAPI for backend integration
+* Vector DB: [FAISS](https://github.com/facebookresearch/faiss) 
+* Embedding Models: OpenAI 
+* LLM: OpenAI GPT 
+* GUI: Streamlit for UI, FastAPI for backend integration
 
 ---
 
@@ -70,7 +66,7 @@ Set your environment variables or `.env` file:
 
 ```env
 OPENAI_API_KEY=your_openai_key
-VECTOR_DB_TYPE=faiss  # Options: faiss, chroma, pinecone
+VECTOR_DB_TYPE=faiss  # Options: faiss
 ```
 
 ---
@@ -113,11 +109,6 @@ The system returns the most relevant document snippets with answers synthesized 
 * Support for multilingual documents
 * Document ingestion via API
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue.
 
 ---
 
