@@ -36,7 +36,6 @@ The Intelligent Document Retrieval System leverages **LangChain** and **Vector D
 intelligent-doc-retrieval/
 │   ├── .gitignore          
 │   ├── .env.example        # Tracked on Git
-│   ├── .env                # Store secret keys
 │   ├── requirements.txt    # List of requirements
 |   ├── app.py              # Main application pipeline
 │   └── README.md
