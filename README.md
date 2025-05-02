@@ -58,12 +58,12 @@ VECTOR_DB_TYPE=faiss  # Options: faiss
 
 ### 1. Prepare Documents
 
-Put your `.txt`, `.pdf`, or `.docx` files in the `data/` folder.
+Prepare your `.pdf` files.
 
 ### 2. Run the Pipeline
 
 ```bash
-python src/app.py
+streamlit run app.py
 ```
 
 ### 3. Ask Questions!
