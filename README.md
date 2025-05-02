@@ -100,5 +100,3 @@ The system returns the most relevant document snippets with answers synthesized 
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ---
-
-Would you like me to tailor this README for a specific domain like legal, medical, or education?
