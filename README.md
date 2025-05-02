@@ -48,18 +48,6 @@ intelligent-doc-retrieval/
 └── README.md
 ```
 
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/intelligent-doc-retrieval.git
-cd intelligent-doc-retrieval
-pip install -r requirements.txt
-```
-
----
-
 ## 🔧 Configuration
 
 Set your environment variables or `.env` file:
