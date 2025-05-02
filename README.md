@@ -34,18 +34,13 @@ The Intelligent Document Retrieval System leverages **LangChain** and **Vector D
 
 ```
 intelligent-doc-retrieval/
-│
-├── data/                   # Raw and processed documents
-├── embeddings/             # Vector representations
-├── src/
-│   ├── loader.py           # Load and preprocess documents
-│   ├── embedder.py         # Convert text to embeddings
-│   ├── vector_store.py     # Store/retrieve vectors
-│   ├── retriever.py        # Handle search queries
-│   └── app.py              # Main application pipeline
-│
-├── requirements.txt
-└── README.md
+│   ├── .gitignore          
+│   ├── .env.example        # Tracked on Git
+│   ├── .env                # Store secret keys
+│   ├── requirements.txt    # List of requirements
+|   ├── app.py              # Main application pipeline
+│   └── README.md
+
 ```
 
 ## 🔧 Configuration
